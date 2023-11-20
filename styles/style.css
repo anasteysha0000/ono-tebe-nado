@@ -23,9 +23,6 @@ main{
 .header__menu-item{
     list-style-type: circle;
     font-size: 18px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
 }
 li::marker{
     width: 7px;
@@ -39,7 +36,6 @@ li::marker{
     grid-column: 3 / 4;
 }
 .header__logo-image{
-    width: 148px;
     height: 105px;
 }
 .header_address{
@@ -48,19 +44,14 @@ li::marker{
     font-style: normal;
     font-size: 18px;
     line-height: 24.3px;
-    font-weight: 400;
 }
 .content_address{
-    color: #000;
-   
     font-size: 18px;
     font-weight: 400;
     line-height: 24.3px;
 }
 .content_address_links{
-    color: #000;
     text-underline-position: under;
-
 }
 .cover{
     position: relative;
@@ -91,8 +82,6 @@ li::marker{
     color: #FFF;
     position: relative;
     font-size: 100px;
-    font-style: normal;
-    font-weight: 700;
     line-height: 115%; 
     text-transform: uppercase;
 }
@@ -125,9 +114,7 @@ li::marker{
     gap: 78px;
     color: #FFF;
     font-size: 22px;
-    font-weight: 400;
     text-transform: uppercase;
-    
 }
 .cover__description-text{
     line-height: 28px;
@@ -158,7 +145,6 @@ span.words4{
 }
 .lots{
     padding: 181px 0 0 0;
-
 }
 .lots__heading{
     padding: 0 0 27px 40px;
@@ -248,7 +234,6 @@ span.words4{
     padding: 170px 0 0 0;
     column-gap: 25px;
     width: 1340px;
-    min-height: 480px;
 }
 .about__column{
     justify-self: center;
@@ -266,7 +251,6 @@ span.words4{
 }
 .about__logo-image{
     padding: 63px 46px;
-
 }
 .about__title{
     padding: 100px 0 100px 0;
