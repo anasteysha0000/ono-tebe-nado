@@ -81,8 +81,8 @@ li::marker {
     letter-spacing: 30px;
     color: #FFF;
     position: relative;
-    font-size: 100px;
     line-height: 115%; 
+    font-size: 100px;
     text-transform: uppercase;
 }
 .accent-span {
