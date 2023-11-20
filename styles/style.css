@@ -21,6 +21,7 @@
 .header__menu-item {
     list-style-type: circle;
     font-size: 18px;
+    white-space: nowrap;
 }
 li::marker {
     width: 7px;
