@@ -46,6 +46,7 @@ li::marker {
     line-height: 24.3px;
 }
 .content_address {
+    font-family: 'Raleway', sans-serif;
     font-size: 18px;
     font-weight: 400;
     line-height: 24.3px;
@@ -82,6 +83,8 @@ li::marker {
     color: #FFF;
     position: relative;
     line-height: 115%;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
     font-size: 100px;
     text-transform: uppercase;
 }
@@ -117,6 +120,7 @@ li::marker {
     text-transform: uppercase;
 }
 .cover__description-text {
+    font-family: 'Raleway', sans-serif;
     line-height: 28px;
     font-style: normal;
     align-items: end;
@@ -136,7 +140,7 @@ span.words4 {
     border: 1px solid #FFF;
     background-color: transparent;
     color: #FFF;
-    font-family: inherit;
+    font-family: 'Raleway', sans-serif;
     font-size: 22px;
     font-style: normal;
     font-weight: 400;
@@ -150,6 +154,7 @@ span.words4 {
     padding: 0 0 27px 40px;
     color: #000;
     font-size: 40px;
+    font-family: 'Raleway', sans-serif;
     font-weight: 700;
     line-height: normal;
     text-transform: uppercase;
@@ -197,6 +202,7 @@ span.words4 {
     background-repeat: no-repeat;
 }
 .card__title {
+    font-family: 'Raleway', sans-serif;
     color: #FFF;
     font-size: 22px;
     font-style: normal;
@@ -208,6 +214,7 @@ span.words4 {
     z-index: 2;
 }
 .card__text {
+    font-family: 'Raleway', sans-serif;
     color: #FFF;
     font-size: 20px;
     font-style: normal;
@@ -252,6 +259,7 @@ span.words4 {
     padding: 63px 46px;
 }
 .about__title {
+    font-family: 'Raleway', sans-serif;
     padding: 100px 0 100px 0;
     grid-column: 2/3;
     font-size: 40px;
@@ -261,6 +269,7 @@ span.words4 {
     text-transform: uppercase;
 }
 .about__text {
+    font-family: 'Raleway', sans-serif;
     display: grid;
     grid-column: 2 / 3;
     font-size: 20px;
@@ -292,6 +301,7 @@ span.words4 {
     text-align: center;
 }
 .footer__menu-list-item {
+    font-family: 'Raleway', sans-serif;
     list-style-type: none;
     color: #000;
     font-size: 18px;
