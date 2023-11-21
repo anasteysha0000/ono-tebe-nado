@@ -27,13 +27,13 @@
     <a class="header__logo">
       <img class = "header__logo-image"
       src="./images/logo-black.svg"
-      alt="Логотип с названием оно тебе надо"/>
+      alt="Оно тебе надо."/>
     </a>
     <address class="header_address">
       <div class="content_address">
         <a class="content_address_links" href="tel:+77778889900">+9 999 555 5555</a>
         <a class="content_address_links" href="mailto:info@sobaka.ge">info@sobaka.ge</a>
-        <br>наб. Принсенграхт 263-265, Амстердам      
+        <p>наб. Принсенграхт 263-265, Амстердам</p>     
       </div>
     </address>
     </header>
@@ -51,9 +51,9 @@
       </h1>
       <div class="cover__description">
         <p class="cover__description-text">
-          <span class="words1">Аукцион вещей,  в </span> <span class="words2"> которые никто </span><span class="words4">не верил</span>
+          <span class="words1">Аукцион вещей,  в </span> <span class="words1"> которые никто </span><span class="words2">не верил</span>
         </p>
-        <button class="bet-button">
+        <button type="submit" class="bet-button">
           сделать ставку
         </button>
       </div>
@@ -63,7 +63,7 @@
         <ul class="lots__card-list">
           <li class="lots__card-list-item ">
             <a class="card-link" href="#0">
-              <article class="card card_type_film card__size">
+              <article class="card card_type_film card_background_property">
                 <div class="overlay"></div>
                     <h3 class="card__title">Фильм режиссёра,
                        который  бросил киношколу</h3>
@@ -76,7 +76,7 @@
           </li>
           <li class="lots__card-list-item">
             <a class="card-link" href="#0">
-              <article class="card card_type_book card__size">
+              <article class="card card_type_book card_background_property">
                 <div class="overlay"></div>
                     <h3 class="card__title">Книга, 
                       где описан один скучный день из жизни рекламного агента</h3>
@@ -90,7 +90,7 @@
                 </li>
           <li class="lots__card-list-item">
             <a class="card-link" href="#0">
-              <article class="card card_type_picture card__size">
+              <article class="card card_type_picture card_background_property">
                 <div class="overlay"></div>
                     <h3 class="card__title">Картина, 
                       которую повторит даже 5-летний сын маминой подруги</h3>
@@ -112,9 +112,9 @@
               alt="Белый логотип"></div>
           </div>
           <div class="about__column">
-            <h4 class="about__title">
+            <h2 class="about__title">
               Об аукционе
-            </h4>
+            </h2>
             <p class="about__text text_indent">
               Здесь вы не встретите очередное пафосное собрание невероятно дорогого антиквариата. Наши лоты вообще не должны были попасть ни на один аукцион.
               Потому что кому нужен дневник девочки-подростка или картина, которую может нарисовать даже ребёнок? Кому нужны все эти странные вещи, созданные любителями?
@@ -125,17 +125,17 @@
             </p>
           </div>
       </section>
-
+    </main>
       <footer class="footer content-section">
         <address class="footer_address">
           <div class="content_address">
-            <a class = "content_address_links" href="tel:+77778889900">+9 999 555 5555</a>
-            <a class = "content_address_links" href="mailto:info@sobaka.ge">info@sobaka.ge</a>
-          </br>наб. Принсенграхт 263-265, Амстердам      
+            <br/><a class = "content_address_links" href="tel:+77778889900">+9 999 555 5555</a>
+            <br/><a class = "content_address_links" href="mailto:info@sobaka.ge">info@sobaka.ge</a>
+            <p>наб. Принсенграхт 263-265, Амстердам</p>      
           </div>
         </address>
         <nav class="footer__menu">
-          <ol class="footer__menu-list">
+          <ul class="footer__menu-list">
             <li class="footer__menu-list-item">
               <a class="footer__menu-link footer__menu-link_active" href="#top">главная</a>
             </li>
@@ -145,7 +145,7 @@
             <li class="footer__menu-list-item">
               <a class="footer__menu-link" href="#about">об аукционе</a>
             </li>
-          </ol>
+          </ul>
         </nav>
         <ul class="footer__social-list">
           <li class="footer__social-list-item">
@@ -164,7 +164,6 @@
             </a>
           </li>
         </ul>
-      </footer>
-    </main>
+    </footer>
   </body>
 </html>
