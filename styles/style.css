@@ -1,10 +1,18 @@
-
+main {
+    display: flex;
+    flex-direction: column;
+    width: 1440px;
+    height: 2500px;
+}
+.content-section {
+    width: 100%;
+    margin: 0 auto;
+  }
 .header {
     display: grid;
-    grid-template-columns: 390px 206px 148px 355px 240px;
+    grid-template-columns: 390px 214px 133px 363px 248px;
     align-items: center;
-    justify-content: center;
-    padding: 79px 49px 83px 66px;
+    padding: 79px 49px 83px 50px;
 }
 .header__menu-list {
     font-family: 'Raleway', sans-serif;
@@ -144,13 +152,13 @@ span.words4 {
     color: #FFF;
     font-family: 'Raleway', sans-serif;
     font-size: 22px;
-    font-style: normal;
+
     font-weight: 400;
     line-height: normal;
     text-transform: uppercase;
 }
 .lots {
-    padding: 181px 0 0 0;
+    padding: 181px 50px 0 50px;
 }
 .lots__heading {
     padding: 0 0 27px 40px;
@@ -165,12 +173,12 @@ span.words4 {
     list-style-type: none;
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     gap: 25px;
+   
 }
 .lots__card-list-item {
     display: flex;
-    flex-grow: 1;
     width: 430px;
     min-height: 400px;
 }
@@ -187,6 +195,10 @@ span.words4 {
     justify-content: space-between;
     padding: 50px 40px;
     height: 100%;
+}
+.card__size {
+    width: 430px;
+    min-height: 450px;
 }
 .card_type_film {
     background-image: url(../images/card-lot-01.jpg);
@@ -240,9 +252,9 @@ span.words4 {
 .about {
     display: grid;
     grid-template-columns: 1fr 2fr;
-    padding: 170px 0 0 0;
-    column-gap: 25px;
-    width: 1340px;
+    padding: 182px 5px 0 10px;
+    max-width: 1387px;
+    column-gap: 16px;
 }
 .about__column {
     justify-self: center;
@@ -280,12 +292,13 @@ span.words4 {
     line-height: normal;
 }
 .text_indent {
-    padding: 0 0 25px 0;
+    padding: 0 0 29px 0;
 }
 .footer {
-    padding: 180px 50px 90px 50px;
+    padding: 183px 50px 90px 50px;
     display: grid;
-    grid-template-columns: 1fr 356px 1fr 356px 1fr;
+    justify-content: center;
+    grid-template-columns: 3.4fr 344px 2fr 356px 1fr;
 }
 .footer_address {
     grid-column: 1/2;
@@ -308,6 +321,7 @@ span.words4 {
     color: #000;
     font-size: 18px;
     font-weight: 400;
+    text-underline-position: under;
 }
 .footer__menu-link_active {
     text-decoration: none;
