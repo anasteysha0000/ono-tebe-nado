@@ -160,7 +160,7 @@ span.words2 {
     list-style-type: none;
     display: flex;
     flex-direction: row;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     gap: 25px;
    
 }
